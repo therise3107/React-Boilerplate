@@ -1,6 +1,20 @@
 # react-boilerplate
 simple production ready client side react boilerplate using webpack
 
+
+## Getting Started
+
+* Clone the repo
+* Yarn install (node >= 7.5)
+* cp .env.example .env
+* sudo vim /etc/hosts add 127.0.0.1 as dev.your-site-name.com
+* yarn start for development
+* For production cp .env.example .env.production yarn build open dist folder
+
+### Coming up
+
+CSS loader, redux, react-router
+
 ### MIT License
 
 ##### Copyright (c) 2017 Lalit Yadav
