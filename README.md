@@ -1,19 +1,39 @@
 # react-boilerplate
-simple production ready client side react boilerplate using webpack
+Fully Production grade Client side React App using Webpack 3.
 
+## What you get
+
+* React with hot reloading.
+* SCSS
+* Production Ready Client Side App.
+* Webpack 3 tooling configuration.
 
 ## Getting Started
 
 * Clone the repo
 * Yarn install (node >= 7.5)
+
+### Development
 * cp .env.example .env
 * sudo vim /etc/hosts add 127.0.0.1 as dev.your-site-name.com
-* yarn start for development
-* For production cp .env.example .env.production yarn build open dist folder
+* yarn start
+
+### Production
+
+* cp .env.example .env.production
+* yarn production
+* open dist folder
+* open index.html
 
 ### Coming up
 
-CSS loader, redux, react-router
+Caching, Redux, React-router, Deployment(Heroku, AWS)
+
+### Known Issue
+
+* SCSS: Full folder imports doesn't work. You will need to explicitly import each file.
+
+
 
 ### MIT License
 
