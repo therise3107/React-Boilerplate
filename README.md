@@ -1,4 +1,4 @@
-# react-boilerplate
+# React Webpack Starter
 Fully Production grade Client side React App using Webpack 3.
 
 ## What you get
