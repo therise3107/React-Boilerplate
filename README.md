@@ -30,9 +30,7 @@ Fully Production grade Client side React App using Webpack 3.
 Caching, Redux, React-router, Deployment(Heroku, AWS)
 
 ### Known Issue
-
-* SCSS: Full folder imports doesn't work. You will need to explicitly import each file.
-
+Currently there are no issues. Please feel free to add any.
 
 
 ### MIT License

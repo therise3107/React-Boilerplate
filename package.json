@@ -10,7 +10,6 @@
     "production": "NODE_ENV=production npm run build"
   },
   "dependencies": {
-    "dotenv-webpack": "^1.5.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "webpack-dotenv-plugin": "^2.0.2",

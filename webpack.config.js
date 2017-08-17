@@ -53,7 +53,7 @@ config.development = {
    rules: [
      {
        test: /\.scss$/,
-       use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
+       use: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader']
      }
    ]
  },
@@ -68,7 +68,7 @@ config.production = {
       {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
-          use: ['css-loader', 'postcss-loader', 'sass-loader'],
+          use: ['css-loader', 'sass-loader', 'postcss-loader'],
           fallback: 'style-loader'
         })
       }
