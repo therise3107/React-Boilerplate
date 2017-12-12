@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/therise3107/react-webpack-starter/badge.svg)](https://snyk.io/test/github/therise3107/react-webpack-starter)
+
 # React Webpack Starter
 Fully Production grade Client side React App using Webpack 3.
 
